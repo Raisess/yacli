@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+echo "Installing {cli_name}..."
+
+sudo cp ./bin/{cli_name} /usr/local/bin/{cli_name}
+
+sudo rm -rf /usr/local/lib/{cli_name}
+sudo cp -r ./src /usr/local/lib/{cli_name}
+
+echo "Installed successfully!"

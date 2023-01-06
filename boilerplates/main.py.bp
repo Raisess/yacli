@@ -1,0 +1,8 @@
+#! /usr/bin/env python3
+
+from yacli.cli import CLI
+from yacli.command import Command
+
+if __name__ == "__main__":
+  cli = CLI("{cli_name}", [])
+  cli.handle()

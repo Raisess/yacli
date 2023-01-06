@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+/usr/local/lib/{cli_name}/main.py "$@"
