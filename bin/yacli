@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+/usr/local/lib/yacli/main.py "$@"
