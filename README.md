@@ -5,6 +5,8 @@ Just another CLI library.
 ### Setup
 
 ```shell
+$ git clone https://github.com/Raisess/yacli
+$ cd yacli
 $ ./install.sh
 ```
 
