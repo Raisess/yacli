@@ -1,7 +1,7 @@
 class BoilerplateLoader:
   @staticmethod
   def Load(path: str, params: dict[str, str]) -> str:
-    file = open(f"./boilerplates/{path}.bp", "r")
+    file = open(f"/usr/local/etc/yacli/boilerplates/{path}.bp", "r")
     content = file.read()
     file.close()
 
