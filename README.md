@@ -2,7 +2,7 @@
 
 Just another CLI library.
 
-### Setup
+## Setup
 
 ```shell
 $ git clone https://github.com/Raisess/yacli
@@ -10,9 +10,9 @@ $ cd yacli
 $ ./install.sh
 ```
 
-### How to use?
+## How to use?
 
-#### Creating a new CLI:
+### Creating a new CLI:
 
 ```shell
 $ yacli create my-cli
@@ -40,5 +40,11 @@ if __name__ == "__main__":
 ```
 
 and run `my-cli/install.sh`.
+
+### Using your CLI:
+
+```shell
+$ my-cli help
+```
 
 That's all!
