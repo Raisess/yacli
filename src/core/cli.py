@@ -1,6 +1,6 @@
 import sys
 
-from core.command import Command, HelpCommand
+from .command import Command, HelpCommand
 
 class CLI:
   def __init__(self, cli_name: str, commands: list[Command]):

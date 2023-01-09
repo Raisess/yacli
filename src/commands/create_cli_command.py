@@ -9,6 +9,9 @@ class CreateCLICommand(Command):
 
   def handle(self, args: list[str]) -> None:
     cli_name = args[0]
+
+    print(f"Creating new {cli_name} cli...")
+
     if not os.path.isdir(cli_name):
       os.mkdir(cli_name)
 
@@ -30,3 +33,5 @@ class CreateCLICommand(Command):
           opened_file.write(file[1].strip())
         if len(file) == 3:
           os.system(f"{file[2]} {path}")
+
+    print("Created!")

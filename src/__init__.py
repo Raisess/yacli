@@ -1,4 +1,4 @@
 # LIB import point
 
-import core.cli
-import core.command
+from .core.cli import CLI
+from .core.command import Command
