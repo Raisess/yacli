@@ -22,7 +22,7 @@ class CreateCLICommand(Command):
         os.mkdir(path)
 
     required_files = [
-      ("install.sh", BoilerplateLoader.Load("install.sh", { "cli_name": cli_name }), "chmod +x"),
+      ("install.py", BoilerplateLoader.Load("install.py", { "cli_name": cli_name }), "chmod +x"),
       (f"bin/{cli_name}", BoilerplateLoader.Load("bin", { "cli_name": cli_name }), "chmod +x"),
       (f"src/main.py", BoilerplateLoader.Load("main.py", { "cli_name": cli_name }), "chmod +x")
     ]

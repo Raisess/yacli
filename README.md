@@ -39,7 +39,7 @@ if __name__ == "__main__":
   cli.handle()
 ```
 
-and run `my-cli/install.sh`.
+and run `sudo my-cli/install.py`.
 
 ### Using your CLI:
 

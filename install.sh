@@ -16,7 +16,7 @@ sudo cp -r ./src/* $LIB_PATH
 
 sudo rm -rf $ETC_PATH
 sudo mkdir -p $ETC_PATH
-sudo cp -r ./boilerplates $ETC_PATH
+sudo cp -r ./etc/* $ETC_PATH
 
 sudo rm -rf $PY_LIB_PATH
 sudo mkdir -p $PY_LIB_PATH/core
