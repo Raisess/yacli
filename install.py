@@ -29,7 +29,7 @@ if __name__ == "__main__":
   if os.path.isdir(PY_LIB_PATH):
     os.system(f"{sudo} rm -rf {PY_LIB_PATH}")
   os.system(f"{sudo} mkdir -p {PY_LIB_PATH}/core")
-  os.system(f"{sudo} cp -r ./src/core {PY_LIB_PATH}/core")
+  os.system(f"{sudo} cp -r ./src/core {PY_LIB_PATH}")
   os.system(f"{sudo} cp ./src/__init__.py {PY_LIB_PATH}")
 
   print("Installed successfully!")
