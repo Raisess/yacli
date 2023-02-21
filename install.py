@@ -3,8 +3,8 @@
 import os
 import site
 
-NOT_USE_SUDO = bool(os.getenv("NOT_USE_SUDO")) or False
-sudo = "" if NOT_USE_SUDO else "sudo"
+NO_SUDO = int(os.getenv("NO_SUDO") or 0)
+sudo = "" if bool(NO_SUDO) else "sudo"
 
 BIN_PATH = f"/usr/local/bin/yacli"
 LIB_PATH = f"/usr/local/lib/yacli"
